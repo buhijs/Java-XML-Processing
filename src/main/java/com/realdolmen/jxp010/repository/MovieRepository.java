@@ -22,10 +22,7 @@ public class MovieRepository implements MovieRepositoryAble {
         parser.parse(stream, handler);
 
         List<Movie> movies = handler.getMovies();
-        System.out.println(movies.size() + " Movies added to list!\n");
-        for (Movie movie : movies) {
-            System.out.println(movie.getTitle() + " - " + movie.getType() + " - " + movie.getFormat());
-        }
+
 
         return movies;
     }

@@ -9,7 +9,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.util.List;
 
-public class Main {
+public class MainMovieSAX {
     public static void main(String[] args) throws Exception {
         /*SAXParserFactory factory = SAXParserFactory.newInstance();
         SAXParser parser = factory.newSAXParser();
