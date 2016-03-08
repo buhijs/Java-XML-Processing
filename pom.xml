@@ -147,7 +147,7 @@
 						</goals>
 						<phase>generate-sources</phase>
 					</execution>
-				</executions>
+				</executions><!--
 				<configuration>
 					<clearOutputDir>false</clearOutputDir>
 					<outputDirectory>src/main/java</outputDirectory>
@@ -155,7 +155,7 @@
 					<includeSchema>**/*.xsd</includeSchema>
 					<bindingDirectory>src/main/resources/bindings</bindingDirectory>
 					<enableIntrospection>false</enableIntrospection>
-				</configuration>
+				</configuration>-->
 			</plugin>
 		</plugins>
 	</build>
