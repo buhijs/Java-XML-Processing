@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<person>
+<person xmlns:p="http://realdolmen.com/piepel">
     <address postalcode="1657">
         <city>Huizingen</city>
         <street_number>42</street_number>
         <street>A. Vaucampslaan</street>
     </address>
+    <emails>
+        <email>nicolasquartier@msn.com</email>
+        <email>quartier.nicolas@gmail.com</email>
+    </emails>
     <firstName>Nicolas</firstName>
     <lastName>Quartier</lastName>
 </person>
